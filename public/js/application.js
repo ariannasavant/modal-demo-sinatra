@@ -3,7 +3,7 @@ $(document).ready(function() {
     $(".modal").modal({
       show: true,
       keyboard: false,
-      static: true
+      backdrop: 'static'
     });
   }
 });

@@ -5,3 +5,8 @@
 .active {
   display: block;
 }
+
+.modal-text-main {
+  text-align: center;
+
+}
