@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  if (($('.session').html()) === "true") {
+  if (($('.session').html()) != "true") {
     $(".modal").modal({
       show: true,
       keyboard: false,
