@@ -1,13 +1,12 @@
 get '/' do
-  if @user = params[:twitter_username]
-    redirect "/#{@user}"
-  else
-    erb :index
-  end
+  @current_user = session[:user]
+  erb :index
 end
 
-get '/:username' do
- puts params[username]
-#mkae an api call to grab 10 recent tweets from user name
-  erb :view_tweets
+get '/signin' do
+  erb :signin
+end
+
+post '/signin' do
+
 end
