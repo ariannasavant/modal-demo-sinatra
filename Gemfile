@@ -17,8 +17,6 @@ gem 'rake'
 
 gem 'shotgun'
 
-gem 'sinatra-twitter-bootstrap', :require => 'sinatra/twitter-bootstrap'
-
 group :test do
   gem 'faker'
   gem 'rspec'

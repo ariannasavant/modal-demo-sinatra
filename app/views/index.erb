@@ -1,2 +1,13 @@
 <h1>THIS IS A PRETEND PAGE!!</h1>
-<div class="session" display="none"><%= @current_user %></div>
+<div class="session hidden"><%= @current_user %></div>
+
+<div class="modal" role="dialog" aria-labelledby="my-modal" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <h2>You are not signed in!  Please continue to sign in.</h2>
+    </div>
+    <div class="modal-footer">
+      <a href="/signin" class="btn btn-primary">Continue</a>
+    </div>
+  </div>
+</div>
